@@ -1,0 +1,105 @@
+*{
+    color: white;
+}
+.body{
+    transition: 2s;
+    background: rgb(39, 39, 39);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+.sub{
+    height: 3.5rem;
+    width: 12rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    color: black;
+    font-family: cursive;
+    font-size: 2rem;
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.calc{
+    position: absolute;
+    border: 2px solid gold;
+    width: 25rem;
+    margin-top: 5rem;
+    max-height: 45rem;
+    background: black;
+}
+.title{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 0.5rem;
+}
+.monitor{
+    background-color: white;
+    width: 22rem;
+    min-height: 3rem;
+    margin: 1.5rem;
+    border: 2px solid gold;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+.keys{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;                                                      
+}
+.num{
+    border: 1.5px solid gold;
+    font-size: 1.6rem;
+    min-height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sum{
+    grid-row: 4 / span 3;
+    grid-column: 3;
+}
+.footer{
+    margin-bottom: 1.5rem;
+    color: gold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.num:hover{
+    background: rgb(27, 27, 27);
+    cursor: pointer;
+}
+.body2{
+    background: rgb(182, 182, 182);
+    transition: 2s;
+}
+.calc2{
+    background: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0);
+}
+.style2{
+    color: black;
+    border: 1.5px solid rgb(0, 0, 0);
+}
+.title2{
+    color: black;
+}
+.footer2{
+    color: black;
+}
+.style2:hover{
+    background: rgb(218, 218, 218);
+}
